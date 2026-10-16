@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Edit Film</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h2>Edit Film</h2>
