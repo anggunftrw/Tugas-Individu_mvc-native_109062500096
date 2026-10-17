@@ -16,13 +16,14 @@ Aplikasi CRUD sederhana untuk mempelajari pola Model-View-Controller pada PHP Na
 
 ## Struktur MVC
 ![struktur](struktur.png)
-app/models/ : akses dan operasi data (film.php)
-app/controllers/ : alur request dan pemanggilan Model/View (FilmController.php)
-app/views/film/ : tampilan HTML (index, create, edit)
-config/ : konfigurasi koneksi database
-database/ : skema dan data awal SQL (film.sql)
-public/ : entry point aplikasi (index.php)
-public/css/ : file CSS (style.css)
+
+- `app/models/`        : akses dan operasi data (film.php)
+- `app/controllers/`   : alur request dan pemanggilan Model/View (FilmController.php)
+- `app/views/film/`    : tampilan HTML (index, create, edit)
+- `config/`            : konfigurasi koneksi database
+- `database/`          : skema dan data awal SQL (film.sql)
+- `public/`            : entry point aplikasi (index.php)
+- `public/css/`        : file CSS (style.css)
 
 ## Fitur
 - Menampilkan data film
